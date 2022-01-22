@@ -18,34 +18,29 @@
 
 <body>
 
-        <header class="page-header page-header--border">
+        <header class="container  page-header page-header--border">
                 
-            <div class="page-header__container container">
+            <div class="page-header__container">
                     
-                                            
-                        <div class="logo-wrapper">
-                            
+                                       
+                                                   
                             <a class="page-header__logo link" href="./index.html"><span lang="en" class="logo--web logo">Web</span> <p lang="en"
                                     class="logo--s logo">Studio</p> </a>
                             
                             
-                            <nav class="header-nav">
+                            <nav class="menu-container">
                             
                                 <ul class="nav-menu list">
                                     <li class="nav-menu__item "><a class="current current-line link nav-menu__link" href="./index.html">Студия</a></li>
                                     <li class="nav-menu__item"><a class="link nav-menu__link" href="./portfolio.html">Портфолио</a></li>
                                     <li class="nav-menu__item"><a class="link nav-menu__link" href="./contacts.html">Контакты</a></li>
                                 </ul>
-                            
-                            
-                            </nav>
-                    
-                        </div>
-                    
-                    
-                        <div class="header-contacts">
+                                                                         
+                                       
+                                       
+                        
                                 <ul class="header-contacts__list list">
-                                    <!-- Ссылка на адрес электронной почты  -->
+                                    
                                     <li class="header-contacts__item">
                                         
                                         
@@ -60,7 +55,7 @@
                                     
                                         </a></li>
                                 
-                                    <!-- Ссылка на телефонный номер -->
+                                    
                                     <li class="header-contacts__item">
                                         
                                         <a class="link header-contacts__tel header-contacts__tel--hover header-contacts-tel__link" href="tel:+380961111111">
@@ -74,8 +69,15 @@
                                     
                                     </li>
                                 </ul>
+                                
+                            </nav>
 
-                        </div>
+                            <button type="button" class="menu-button" aria-expanded="false" data-menu-button>
+                                <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                                    <use class="icon-cross" href="./images/symbol-defs.svg#cross"></use>
+                                    <use class="icon-menu" href="./images/symbol-defs.svg#menu"></use>
+                                </svg>
+                            </button>
                     
             </div>
                       
@@ -83,7 +85,7 @@
         </header>
 
         <main>
-                <section class="hero hero__section">
+                <!-- <section class="hero hero__section">
                     
                     <div class="container hero-wrapper">  
                         
@@ -91,11 +93,11 @@
 
                         <button class="btn hero-btn" type="button" data-modal-open>Заказать услугу</button>
                     </div>
-                </section>
+                </section> -->
 
 
 
-                <section class="section">
+                <!-- <section class="section">
                     
                     <div class="container features">
                             <h2 class="features__title" lang="en"> </h2>
@@ -148,9 +150,9 @@
                     
 
                 
-                </section >
+                </section > -->
 
-                <section  class="section-jobs">
+                <!-- <section  class="section-jobs">
                         
                     <div class="container  jobs">
                             <h2 class="jobs__title">Чем мы занимаемся</h2>
@@ -180,12 +182,12 @@
                         
                 
                 
-                </section>
+                </section> -->
 
 
 
 
-                <section class="section team">
+                <!-- <section class="section team">
 
                        
                         <div class="container">
@@ -410,11 +412,11 @@
                         
 
 
-                </section>
+                </section> -->
 
 
 
-                <section class="section klients">
+                <!-- <section class="section klients">
 
                     <div class="container">
 
@@ -503,13 +505,13 @@
 
                     </div>
 
-                </section>
+                </section> -->
                 
 
         </main>
 
 
-        <footer class="footer section">
+        <!-- <footer class="footer section">
            
             <div class="container footer--wrapper">
 
@@ -525,11 +527,11 @@
                         
                         
                             <ul class="footer-address-list list">
-                                <!-- Ссылка на адрес электронной почты  -->
+                                
                                 <li class="footer-address-list__item"><a class="link footer-address-list__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                                 </li>
                         
-                                <!-- Ссылка на телефонный номер -->
+                                
                                 <li class="footer-address-list__item"><a class="link footer-address-list__tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
                             </ul>
                         
@@ -606,7 +608,7 @@
             </div>
             
 
-        </footer>
+        </footer> -->
 
         <div class="backdrop is-hidden" data-modal>
 
@@ -667,8 +669,13 @@
                
 
         </div>
-    
-        <script src="./js/modal.js"></script>
+        
+            <script src="./js/modal.js"></script>
+            <script src="./js/menu.js"></script>
+            <script src="./js/backdrop-modal.js"></script>
+
+
+
 </body>
 
 </html>
