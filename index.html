@@ -151,9 +151,9 @@
                     </div>
                     
                                     
-                </section > -->
+                </section > 
 
-                <!-- <section  class="section-jobs">
+                <section  class="section-jobs">
                         
                     <div class="container  jobs">
                             <h2 class="jobs__title">Чем мы занимаемся</h2>
@@ -183,23 +183,43 @@
                         
                 
                 
-                </section> -->
+                </section>
 
 
 
 
-                <!-- <section class="section team">
+                <section class="team">
 
                        
-                        <div class="container">
+                        <div class="container team-section">
 
                             <h2 class="team__title">Наша команда</h2>
                             
                             <ul class="team-list list">
                                 <li class="team-list__item team-list--card">
                             
-                            
-                                    <img src="./images/team/team-card1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                                    <picture>
+                                            <source srcset="
+                                                              ./images/team/pc/ihor/img.jpg  1x,
+                                                              ./images/team/pc/ihor/img@2x.jpg  2x,
+                                                              ./images/team/pc/ihor/img@3x.jpg 3x
+                                                            " media="(min-width: 1200px)" />
+                                            <source srcset="
+                                                              ./images/team/mobile/ihor/img.jpg  1x,
+                                                              ./images/team/mobile/ihor/img@2x.jpg  2x,
+                                                              ./images/team/mobile/ihor/img@3x.jpg 3x
+                                                            " media="(max-width: 767px)" />
+                                            
+                                            <source srcset="
+                                                              ./images/team/tablet/ihor/img.jpg  1x,
+                                                              ./images/team/tablet/ihor/img@2x.jpg  2x,
+                                                              ./images/team/tablet/ihor/img@3x.jpg 3x
+                                                            " media="(min-width: 768px)" />
+                                                        
+
+                                            <img src="./images/team/team-card1.jpg" alt="Игорь Демьяненко" width="270" height="260" sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+
+                                    </picture>
                             
                                     <div class="team-list__wrapper" >
 
@@ -254,7 +274,32 @@
                             
                                 <li class="team-list__item team-list--card">
 
-                                        <img src="./images/team/team-card2.jpg" alt="Ольга Репина" width="270" height="260">
+                                        <picture>
+                                            <source srcset="
+                                                                                                      ./images/team/pc/olga/img.jpg  1x,
+                                                                                                      ./images/team/pc/olga/img@2x.jpg  2x,
+                                                                                                      ./images/team/pc/olga/img@3x.jpg 3x
+                                                                                                    " media="(min-width: 1200px)" />
+                                            <source srcset="
+                                                                                                      ./images/team/mobile/olga/img.jpg  1x,
+                                                                                                      ./images/team/mobile/olga/img@2x.jpg  2x,
+                                                                                                      ./images/team/mobile/olga/img@3x.jpg 3x
+                                                                                                    " media="(max-width: 767px)" />
+                                        
+                                            <source srcset="
+                                                                                                      ./images/team/tablet/olga/img.jpg  1x,
+                                                                                                      ./images/team/tablet/olga/img@2x.jpg  2x,
+                                                                                                      ./images/team/tablet/olga/img@3x.jpg 3x
+                                                                                                    " media="(min-width: 768px)" />
+                                        
+                                        
+                                            <img src="./images/team/team-card2.jpg" alt="Ольга Репина" width="270" height="260"
+                                                                                        sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+
+                                        
+                                        </picture>
+
+
 
                                         <div class="team-list__wrapper" >
                                             <h3 class="team-list__subtitle">Ольга Репина</h3>
@@ -303,9 +348,31 @@
                             
                             
                                 <li class="team-list__item team-list--card">
+                                    <picture>
+                                        <source srcset="
+                                                                                                  ./images/team/pc/nikola/img.jpg  1x,
+                                                                                                  ./images/team/pc/nikola/img@2x.jpg  2x,
+                                                                                                  ./images/team/pc/nikola/img@3x.jpg 3x
+                                                                                                " media="(min-width: 1200px)" />
+                                        <source srcset="
+                                                                                                  ./images/team/mobile/nikola/img.jpg  1x,
+                                                                                                  ./images/team/mobile/nikola/img@2x.jpg  2x,
+                                                                                                  ./images/team/mobile/nikola/img@3x.jpg 3x
+                                                                                                " media="(max-width: 767px)" />
+                                    
+                                        <source srcset="
+                                                                                                  ./images/team/tablet/nikola/img.jpg  1x,
+                                                                                                  ./images/team/tablet/nikola/img@2x.jpg  2x,
+                                                                                                  ./images/team/tablet/nikola/img@3x.jpg 3x
+                                                                                                " media="(min-width: 768px)" />
+                                    
+                                    
+                                        <img src="./images/team/team-card3.jpg" alt="Николай Тарасов" width="270" height="260"
+                                                                                sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+
+                                    
+                                    </picture>
                             
-                            
-                                    <img src="./images/team/team-card3.jpg" alt="Николай Тарасов" width="270" height="260">
                             
                                     
                                     <div class="team-list__wrapper" >
@@ -357,8 +424,31 @@
                             
                                 <li class="team-list__item team-list--card">
                             
-                            
-                                    <img src="./images/team/team-card4.jpg" alt="Михаил Ермаков" width="270" height="260">
+                                    <picture>
+                                        <source srcset="
+                                                                                                  ./images/team/pc/miha/img.jpg  1x,
+                                                                                                  ./images/team/pc/miha/img@2x.jpg  2x,
+                                                                                                  ./images/team/pc/miha/img@3x.jpg 3x
+                                                                                                " media="(min-width: 1200px)" />
+                                        <source srcset="
+                                                                                                  ./images/team/mobile/miha/img.jpg  1x,
+                                                                                                  ./images/team/mobile/miha/img@2x.jpg  2x,
+                                                                                                  ./images/team/mobile/miha/img@3x.jpg 3x
+                                                                                                " media="(max-width: 767px)" />
+                                    
+                                        <source srcset="
+                                                                                                  ./images/team/tablet/miha/img.jpg  1x,
+                                                                                                  ./images/team/tablet/miha/img@2x.jpg  2x,
+                                                                                                  ./images/team/tablet/miha/img@3x.jpg 3x
+                                                                                                " media="(min-width: 768px)" />
+                                    
+                                    
+                                        <img src="./images/team/team-card4.jpg" alt="Михаил Ермаков" width="270" height="260"
+                                                                                sizes="(min-width: 1200px) 25vw, (min-width: 768px) 50vw, 100vw">
+
+                                    
+                                    </picture>
+
                             
                                     
                                     <div class="team-list__wrapper" >
@@ -413,11 +503,11 @@
                         
 
 
-                </section> -->
+                </section>
 
 
 
-                <!-- <section class="section klients">
+                <section class="section klients">
 
                     <div class="container">
 
@@ -506,13 +596,13 @@
 
                     </div>
 
-                </section> -->
+                </section>
                 
 
         </main>
 
 
-        <!-- <footer class="footer section">
+        <footer class="footer section">
            
             <div class="container footer--wrapper">
 
@@ -593,6 +683,7 @@
                         
                         <label class="footer-form__title">Подпишитесь на рассылку
                             <span class="footer-form__wraper">
+                                
                                 <input type="mail" class="footer-form__input" name="mailing" placeholder="E-mail">
                                 
                                 <button class="footer-button-mailing"> <span class="footer-button-mailing__title" >Подписаться</span> 
@@ -609,7 +700,7 @@
             </div>
             
 
-        </footer> -->
+        </footer>
 
         <div class="backdrop is-hidden" data-modal>
 
