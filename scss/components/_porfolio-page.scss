@@ -1,3 +1,14 @@
+.porfolio.current-line::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 77px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
 .filter__btn {
   font-style: normal;
   font-weight: 500;
@@ -131,6 +142,26 @@
 
   &:nth-child(3n + 3) {
     margin-right: 0px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    // margin-bottom: 10px;
+
+    width: 354px;
+    height: 440px;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+      margin-bottom: 30px;
+    }
+
+    &:last-child {
+      margin-bottom: 30px;
+    }
+
+    &:nth-child(3n + 3) {
+      margin-right: 30px;
+    }
   }
 }
 
